@@ -1,0 +1,26 @@
+.cv-section {
+    display: flex; /* Use Flexbox */
+    justify-content: space-between; /* This will space out the Skills and the Accordion */
+    align-items: flex-start; /* Start aligning from the top */
+    padding: 15px;
+    position: relative; /* This will be the context for the sticky positioning of the Skills component */
+    transition: all 0.3s ease-in-out; /* This will make the transition smooth */
+
+}
+.cv-section:hover {
+    transform: scale(1.05); /* Scales the element up by 5% */
+    background-color: rgba(0, 0, 0, 0.1); /* A light grey background color */
+}
+
+
+.cv-accordion {
+    flex: 1; /* This will allow it to occupy the rest of the space beside the Skills component */
+    overflow: auto; /* Makes it scrollable if its content overflows */
+    height: 90vh; /* Adjust this based on your needs */
+    padding-left: 20px; /* Some spacing between Skills and Accordion content */
+}
+
+.cv-accordion:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Adds a light shadow effect */
+}
+

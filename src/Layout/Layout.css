@@ -1,0 +1,27 @@
+/* Layout.css */
+
+.Layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* This will ensure your layout takes up the full height of the viewport */
+}
+
+/* To ensure spacing between main content and header/footer */
+.Layout > *:not(:first-child):not(:last-child) {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.Footer {
+    margin-top: auto; /* This pushes the footer to the bottom in case the content isn't tall enough */
+    /* Add other styles specific to the footer if needed */
+}
+
+/* If you want a maximum width and center align your content */
+.Content {
+    max-width: 1200px; /* This can be any value you prefer */
+    margin-left: auto;
+    margin-right: auto;
+}

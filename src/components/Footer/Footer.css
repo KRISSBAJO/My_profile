@@ -1,0 +1,76 @@
+.footer-container {
+    width: 100%;
+    background: linear-gradient(135deg,  #977669 20%, #0fadbe 50%, #536eb3 40%,  #089e50 0%, #3BA7DD 100%);  /* Gradient background */
+    color: #f9f9f9;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    height: auto; /* Removed the fixed height to adjust automatically based on content */
+    margin-top: 50px;
+    padding-bottom: 40px; /* Added some padding at the bottom for better spacing */
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column; /* Changed to column so that elements stack vertically */
+    justify-content: center;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px; /* Added some margin for better spacing */
+}
+
+.footer-links a {
+    color: #f9f9f9;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-links a:hover {
+    color: #007BFF;
+}
+
+/* CSS for Newsletter Section */
+.newsletter {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    margin-top: 20px;
+    width: 100%; /* Use full width */
+    max-width: 300px; /* Set a maximum width */
+    align-items: center; /* Center items horizontally */
+}
+
+.newsletter input[type="email"] {
+    padding: 10px;
+    width: 100%; /* Use full width */
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #f9f9f9;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.newsletter button:hover {
+    background-color: #0056b3;
+}
+
+/* CSS for Credits Section */
+.credits {
+    margin-top: 20px;
+    font-size: 14px; /* Smaller font size for credits */
+}

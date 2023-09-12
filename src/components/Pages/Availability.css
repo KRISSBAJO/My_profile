@@ -1,0 +1,62 @@
+/* Availability.css */
+
+.availability-container {
+    max-width: 1200px; /* Increased for wider calendar view */
+    margin: 50px auto;
+    height: 100%;
+    padding: 30px;
+    background-color: #ffffff; /* Pure white for clarity */
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+.availability-container .rbc-calendar .rbc-row .rbc-date-cell {
+    width: 14.28% !important; 
+}
+
+
+.availability-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 24px; /* Increase for prominence */
+    font-weight: 600; /* Bolder heading */
+}
+
+.availability-container p {
+    margin: 20px 0;
+    color: #666; /* Slightly darker for better readability */
+    font-size: 16px;
+}
+
+.availability-container ul {
+    padding-left: 40px; /* Increased for better spacing */
+}
+
+.availability-container li {
+    margin-bottom: 15px; /* A bit more space between items */
+    color: #555;
+    font-size: 16px; /* Slightly larger for readability */
+}
+
+/* Styles specific to the calendar component */
+
+.rbc-calendar {
+    background-color: #f5f5f5; /* Lighter background */
+    border-radius: 8px; /* Match other design elements */
+}
+
+.rbc-btn-group {
+    margin-bottom: 50px; /* Space out buttons from calendar */
+}
+
+
+
+.rbc-toolbar button {
+    background-color: #007BFF; /* A pleasant blue */
+    border: none;
+    color: #fff; /* White text for buttons */
+    font-size: 14px;
+    padding: 4px 8px; /* Some padding for buttons */
+    border-radius: 4px; /* Rounded edges for buttons */
+    margin-right: 5px; /* A bit of space between buttons */
+}

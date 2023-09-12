@@ -1,0 +1,82 @@
+.skills-container {
+    width:30%;  
+    padding: 3px;
+    background-color: #f9f9f9;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    position: sticky;  /* This will make it stick to the right side of the screen */
+    gap: 2px;
+    font-size: 1.5em;
+    display: grid;
+    grid-template-columns: repeat(3 ); /* This creates 3 equal columns */
+    grid-template-rows: repeat(3 ); /* This creates 3 equal rows */
+    grid-auto-flow: row;  /* This will make the grid flow vertically */
+   
+    height: 90vh;  /* Adjust this based on your needs */
+   
+    align-items: center;  /* Aligns the content vertically */
+    justify-content: center;  /* Aligns the content horizontally */
+ 
+}
+
+.skills-heading {
+    font-size: 1.2em;  
+    color: #0c25af;
+    margin-bottom: 1px;
+    text-align: center;
+}
+
+.skills-row {
+    flex-direction: column;  
+    gap: 2px;
+}
+
+.skill-card {
+    padding: 5px 1px; 
+    font-size: 0.7em;  
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    height:70%
+
+}
+
+.skill-title, .skill-content, .skill-icon {
+    display: inline-block;  /* Inline elements for horizontal arrangement */
+}
+
+.skill-card:nth-child(odd) { 
+    background-color: #f2e6ff;  /* Example color for odd rows */
+}
+
+.skill-card:nth-child(even) {
+    background-color: #e6f7ff;  
+}
+.load-more-button {
+    width: 100px; 
+    padding: 5px 10px; 
+    font-size: 0.8em;  
+}
+.skill-icon {
+    font-size: 15px;  
+    color: #458a5f;
+    margin-right: 5px;  
+}
+.load-less-button {
+    background: linear-gradient(135deg, #6EE7B7 0%, #3BA7DD 100%);  /* Gradient background */
+    border: none;  /* Remove the default border */
+    border-radius: 25px;  /* Rounded edges */
+    color: white;  /* Text color */
+    padding: 10px 20px;  /* Padding around text */
+    cursor: pointer;  /* Pointer cursor on hover */
+    font-size: 0.59em;  /* Font size */
+    transition: all 0.3s ease;  /* Transition for smooth effects */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  
+    outline: none; 
+}
+
+.load-less-button:hover {
+    background: linear-gradient(135deg, #57D8A3 0%, #299BCB 100%);  
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.12);  
+}
+
+

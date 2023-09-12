@@ -1,0 +1,66 @@
+.contact-container {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.6;
+    text-align: justify;
+    color: #333;
+    padding: 20px;
+    background-color: #f7f7f7; /* slightly lighter background for subtle depth */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* Enhanced shadow for more depth */
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    width: 80%; /* You can set this to limit the width of the container */
+    margin-left: auto; /* Center the container */
+    margin-right: auto; /* Center the container */
+
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    font-size: 1.2em; /* Slightly larger font for readability */
+    padding: 10px; /* Adding some padding for spacing */
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Transition for a hover effect */
+    color: #d00707; /* Blue color for the heading */
+    font-weight: 600;
+}
+
+
+.contact-item:hover {
+    background-color: #020202; /* Slight background on hover */
+    color: #ffffff; /* Darker shade for hover state */
+}
+
+/* You can keep your icon styles as they are or modify them slightly for enhanced visibility */
+.icon-envelope,
+.icon-phone
+ {
+    margin-right: 15px; /* A bit more spacing */
+    font-size: 1.5em; /* Slightly larger icon for visibility */
+    color: #007BFF;
+    margin-left: 4px;
+}
+ .icon-map-marker{
+    margin-right: 15px; /* A bit more spacing */
+    font-size: 1.5em; /* Slightly larger icon for visibility */
+    color: #ff4400;
+ }
+ .download-link{
+    margin-right: 15px; /* A bit more spacing */
+    font-size: 1em; /* Slightly larger icon for visibility */
+    color: #151616;
+    margin-left: 4px;
+    
+ }
+    .download-link:hover{
+        color: #ffffff;
+    }
+    .contact-item.download-link:hover{
+        background-color: #007BFF;
+        color: #ffffff;
+    }
+   

@@ -1,0 +1,74 @@
+.accordion-section {
+    margin: 40px 0;
+    padding: 28px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    width: 700px;
+    margin: auto;
+}
+
+.accordion-header {
+    display: flex;
+    justify-content: center; /* centers the title */
+    align-items: center;
+    cursor: pointer;
+    color: rgb(231, 55, 55);
+    background: linear-gradient(135deg, #de572d 0%);
+    border-radius: 10px;
+    position: relative; /* allows child elements to be positioned relative to this container */
+}
+
+.accordion-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    font-size: 20px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+    cursor: pointer;
+    flex-grow: 1; 
+}
+
+.accordion-title {
+    font-size: 24px;
+}
+
+.accordion-icon {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-left: 2px solid currentColor;
+    border-bottom: 2px solid currentColor;
+    transform-origin: center;
+    transition: transform 0.3s ease;
+    position: absolute; /* positions the arrow relative to its parent */
+    right: 20px; /* distance from the right end of the container */
+}
+
+.accordion-icon-collapsed {
+    transform: rotate(-45deg);
+}
+
+.accordion-icon-expanded {
+    transform: rotate(135deg);
+}
+
+.accordion-content {
+    transition: max-height 0.6s ease;
+    max-height: 200px;
+    justify-content: center;   
+}
+
+.accordion-content-text {
+    padding: 20px 0;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #fffbfb;
+    background: linear-gradient(135deg, #555857 0%, #3BA7DD 100%);
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin: auto;
+}

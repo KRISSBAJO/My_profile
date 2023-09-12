@@ -1,0 +1,32 @@
+/* GoogleChart.css */
+.google-chart-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 20px; /* space between the charts */
+    max-width: 1500px; /* max width of the container holding both charts */
+    margin: 0 auto; /* center the container */
+    background-color: #f4f4f4; /* light background for the container */
+    border-radius: 20px; /* rounded edges for the container */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); /* subtle shadow for a lifted effect */
+}
+
+.chart {
+    flex: 1 1 calc(50% - 10px); /* makes each chart take roughly half the space minus half the gap */
+    height: 400px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); /* subtle shadow for each chart */
+    overflow: hidden; /* in case any chart overflows, it's hidden */
+}
+
+@media (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    .chart {
+        width: 100%;
+        flex-basis: 100%;
+    }
+}
+
+/* If there are any hover effects or other interactions you'd like to include, you can expand on this CSS file. */

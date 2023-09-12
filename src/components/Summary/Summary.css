@@ -1,0 +1,41 @@
+.summary-container {
+    background-color: #f4f4f4;  /* Light grey background for emphasis */
+    border-radius: 8px;        /* Rounded edges */
+    padding: 20px;             /* Inner spacing */
+    margin: 20px 0;            /* Spacing from other elements */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 50%;                /* Width of the summary */
+    margin: 0 auto;            /* Center the summary */
+    margin-top: 80px;          /* Add some top margin */
+
+}
+
+.summary-heading {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.8em;          /* Larger font for the heading */
+    border-bottom: 2px solid #007BFF; /* Blue underline for emphasis */
+    padding-bottom: 10px;     /* Padding to space out the underline */
+    margin-bottom: 20px;      /* Space between heading and content */
+    color: #f7f6f6;           /* Blue color for the heading */
+    background-color: #271b1b;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* Enhanced shadow for more depth */
+    
+}
+
+.summary-content {
+    font-size: 1.1em;          /* Slightly larger font for better readability */
+    line-height: 1.6;         /* Improved spacing between lines */
+    text-align: justify;      /* Content alignment */
+    color: #333;              /* Dark grey for the text */
+    font-family: cursive;
+
+}
+
+/* If you want to add some hover effect */
+.summary-container:hover {
+    transform: scale(1.03);   /* Slightly enlarge the container */
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+}

@@ -1,0 +1,54 @@
+.certifications-container {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 120px;
+}
+
+.certifications-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.certification-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 20px;
+    gap: 15px;
+}
+
+.cert-logo {
+    width: 80px;  /* or adjust based on your preference */
+    height: 80px;  /* adjust to maintain the aspect ratio of your images */
+    border-radius: 50%; /* Makes it circular, remove if not desired */
+    object-fit: cover;  /* Makes sure the logo image is resized properly */
+}
+
+.cert-content {
+    flex-grow: 1;  /* allows it to take remaining width */
+}
+
+.certifications-list a {
+    text-decoration: none;
+    color: #7db58a;
+    font-weight: bold;
+    border-bottom: 2px dotted #007BFF;
+    transition: color 0.3s ease;
+}
+
+.certifications-list a:hover {
+    color: #0056b3;
+}
+
+.cert-description {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+}

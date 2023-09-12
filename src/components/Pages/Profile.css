@@ -1,0 +1,24 @@
+/* Profile.css */
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color: #f7f7f7; /* soft background color */
+    border-radius: 15px; /* rounded edges */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05); /* subtle shadow for a lifted effect */
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+.profile-header {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #2c3e50; /* slightly darkened color for emphasis */
+    text-align: center;
+    text-decoration: underline;
+}
+
+
